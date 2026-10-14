@@ -1,4 +1,5 @@
 name: Deploy Pages
+# Triggered on push to main (lifehouse2/site) or manually via Run workflow
 on:
   push:
     branches: [main]
