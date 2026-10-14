@@ -1,0 +1,8 @@
+[
+ {"js":"__lh.openTV('quests')","wait":1500},
+ {"js":"(function(){var c=document.querySelector('input[data-t]:not(:checked)');c.click();return __lh.S.projects.filter(function(p){return p.id==='p1'})[0].tasks.map(function(t){return t.done})})()","wait":1500},
+ {"js":"(function(){document.querySelector('#qText').value='ทดสอบเควสใหม่';document.querySelector('#qAdd').dispatchEvent(new Event('submit',{cancelable:true,bubbles:true}));return __lh.S.projects.reduce(function(n,p){return n+p.tasks.length},0)})()","wait":1500},
+ {"js":"(function(){document.querySelector('[data-nav=week]').click();var b=document.querySelector('[data-day=\"gym|3\"]');b.click();return __lh.S.routines[0].days.map(function(d){return d.done})})()","wait":1500},
+ {"js":"(function(){document.querySelector('[data-nav=projects]').click();document.querySelector('[data-a=newproj]').click();document.querySelector('#fName').value='โปรเจกต์ทดสอบ';document.querySelector('#frm').dispatchEvent(new Event('submit',{cancelable:true,bubbles:true}));return __lh.S.projects.length})()","wait":2000,"shot":"j1.png"},
+ {"js":"(function(){__lh.closeTV();__lh.select('r:gym',true);return document.querySelector('#card').innerText})()","wait":1500}
+]

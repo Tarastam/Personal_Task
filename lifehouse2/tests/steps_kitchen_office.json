@@ -1,0 +1,2 @@
+[{"js":"__lh.setTime(13);__lh.setRoof(true);document.querySelector('[data-f=income]').click()","wait":9000,"shot":"shots/k_kit.png"},
+{"js":"document.querySelector('[data-f=apps]').click()","wait":9000,"shot":"shots/k_off.png"}]
